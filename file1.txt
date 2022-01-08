@@ -1,0 +1,10 @@
+1.git rm [file] :delete the file from project and stage the removal for commit
+2.git mv [existing-path] [new-path] :change an existing file path and stage the move
+3.git stash : Save modified and staged changes
+4.git stash list : list stack-order of stashed file changes
+5. git stash pop :write working from top of stash stack
+6. git stash drop : discard  the changes from top of stash stack
+7. git rebase [branch] : apply any commits of current branch ahead of specified one
+8. git reset --hard [commit] : clear staging area, rewrite working tree from specified commit
+9. git fetch [alias]fetch down all the branches from that Git remote
+10. git remote add [alias] [url]add a git URL as an alias
