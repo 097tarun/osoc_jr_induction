@@ -1,0 +1,36 @@
+commit 1994bbc688f210409f403d71460c9f8ab709cea4
+Author: tarun <tarunmeena161999@gmail.com>
+Date:   Sat Jan 8 09:27:35 2022 +0530
+
+    file2 created
+
+commit 9aaab18de37ef52799ec910ebb5aeb85078cbd0c
+Merge: 1ad9528 5cd7f3a
+Author: tarun <tarunmeena161999@gmail.com>
+Date:   Sat Jan 8 09:23:42 2022 +0530
+
+    merge conflict resolved
+
+commit 1ad9528c80ef3c11a79576da32b41e46a797365a
+Author: tarun <tarunmeena161999@gmail.com>
+Date:   Sat Jan 8 09:20:00 2022 +0530
+
+    myfile in main created
+
+commit 5cd7f3a96ad081886637e593b83cafdf640407b8
+Author: tarun <tarunmeena161999@gmail.com>
+Date:   Sat Jan 8 09:18:09 2022 +0530
+
+    myfile in branch_one created
+
+commit 23ec297a11f45e73d5d3c65b2e37680b5e81a600
+Author: tarun <tarunmeena161999@gmail.com>
+Date:   Sat Jan 8 09:16:16 2022 +0530
+
+    file1 created
+
+commit 84d38b4625e3c648eeaf1bbdc9fd542fa954fdb0
+Author: SHANOOR AHMED <76896805+shanoorahmed@users.noreply.github.com>
+Date:   Mon Jan 3 00:41:26 2022 +0530
+
+    Initial commit
