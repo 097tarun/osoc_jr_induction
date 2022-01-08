@@ -1,0 +1,36 @@
+What is a Git merge conflict?
+When working in Git, users can combine commits from two different branches through an action known as merging. Files are automatically merged unless there are conflicting sets of changes (i.e. the commits update the same line of code differently).
+
+A merge conflict is an event that occurs when Git is unable to automatically resolve differences in code between two commits.
+
+When all the changes in the code occur on different lines or in different files, Git will successfully merge commits without your help.
+
+However, when there are conflicting changes on the same lines, a “merge conflict” occurs because Git doesn’t know which code to keep and which to discard.
+
+How to Resolve Merge Conflicts in Git?
+There are a few steps that could reduce the steps needed to resolve merge conflicts in Git.
+
+The easiest way to resolve a conflicted file is to open it and make any necessary changes
+After editing the file, we can use the git add a command to stage the new merged content
+The final step is to create a new commit with the help of the git commit command
+Git will create a new merge commit to finalize the merge
+Let us now look into the Git commands that may play a significant role in resolving conflicts.
+
+Git Commands to Resolve Conflicts
+1. git log --merge
+The git log --merge command helps to produce the list of commits that are causing the conflict
+
+2. git diff
+The git diff command helps to identify the differences between the states repositories or files
+
+3. git checkout
+The git checkout command is used to undo the changes made to the file, or for changing branches
+
+4. git reset --mixed
+The git reset --mixed command is used to undo changes to the working directory and staging area
+
+5. git merge --abort
+The git merge --abort command helps in exiting the merge process and returning back to the state before the merging began
+
+6. git reset
+The git reset command is used at the time of merge conflict to reset the conflicted files to their original state
